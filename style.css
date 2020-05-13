@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('image1.jpg');
+    height:100vh;
+    background-size:cover;
+    background-position: center;
+}
+.nav-menu {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-menu li{
+    display: inline;
+}
+.nav-menu li a{
+    color: chocolate;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.homebtn a{
+    border: 1px solid grey;
+    background-color: white;
+    
+
+}
+.nav-menu li a:hover{
+    border:1 px solid grey;
+    background-color: white;;
+}
+.tagline{
+    position: absolute;
+    width: 1200px;
+    margin-top: 0;
+    margin-left: 0;
+}
+h1{
+    color: rgb(194, 205, 92);
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    margin-top: 400px;
+    margin-left: 350px;
+}
+.donate{
+    margin-top: 50px;
+    margin-left: 650px;
+}
+.bttn{
+    border: 1px solid grey;
+    padding: 10px 30px;
+    color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+.donate a:hover{
+    background-color: maroon;
+}
+.line{
+    position:absolute;
+    margin-top: 0;
+    margin-left: 0;
+    widows: 1000px;
+}
+h2{
+    color: mintcream;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    margin-top: 200px;
+    border: 1px solid black ;
+}
